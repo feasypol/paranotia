@@ -8,6 +8,12 @@
     justify-content: center;
     padding: 80px 60px;
   }
+@media (max-width: 991px) {
+    .land_container {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
 .land_card {
     display: flex;
     margin-top: 79px;
@@ -15,6 +21,11 @@
     max-width: 1500px;
     flex-direction: column;
 }
+@media (max-width: 991px) {
+    .land-card {
+      max-width: 100%;
+    }
+  }
 .land_title {
     color: #000;
     font-family: "IBM Plex Mono";
@@ -22,6 +33,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+@media (max-width: 991px) {
+    .land-title {
+      max-width: 100%;
+    }
   }
 .land_bio {
     color: #000;
@@ -55,3 +71,7 @@ a:hover {
     color:white;
     background-color: black;
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
