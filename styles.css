@@ -1,48 +1,52 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 .land_container {
     background-color: #fff;
     display: flex;
     align-items: center;
-    font-size: 28px;
+    font-size: 18px;
     color: #000;
     font-weight: 700;
     justify-content: center;
-    padding: 80px 60px;
-  }
-@media (max-width: 991px) {
-    .land_container {
-      max-width: 100%;
-      margin-top: 40px;
-    }
+    padding: 150px;
   }
 .land_card {
     display: flex;
-    margin-top: 79px;
+    margin-top: 18px;
     width: 100%;
     max-width: 1500px;
     flex-direction: column;
 }
-@media (max-width: 991px) {
-    .land-card {
-      max-width: 100%;
-    }
-  }
 .land_title {
     color: #000;
     font-family: "IBM Plex Mono";
-    font-size: 32px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-  }
-@media (max-width: 991px) {
-    .land-title {
-      max-width: 100%;
-    }
+    padding-bottom: 18px;
   }
 .land_bio {
     color: #000;
     font-family: "IBM Plex Mono";
-    font-size: 28px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -51,7 +55,7 @@
     color: #000;
     text-align: center;
     font-family: "IBM Plex Mono";
-    font-size: 28px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
