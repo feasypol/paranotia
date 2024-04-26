@@ -1,0 +1,57 @@
+.land_container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: #000;
+    font-weight: 700;
+    justify-content: center;
+    padding: 80px 60px;
+  }
+.land_card {
+    display: flex;
+    margin-top: 79px;
+    width: 100%;
+    max-width: 1500px;
+    flex-direction: column;
+}
+.land_title {
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+.land_bio {
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+.land_links {
+    color: #000;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+.bold-text {
+    font-weight: 700;
+  }
+
+.underline-text {
+    text-decoration: underline;
+}
+a:link, a:visited, a:active {
+    color:inherit;
+    text-decoration: none;
+}
+a:hover {
+    color:white;
+    background-color: black;
+}
